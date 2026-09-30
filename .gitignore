@@ -1,0 +1,15 @@
+# Entorno virtual
+venv/
+.env
+
+# Datos locales y Data Lake (No se suben datos al repo)
+data/source_files/
+datalake/
+
+# Archivos temporales de Python y Spark
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+derby.log
+metastore_db/
